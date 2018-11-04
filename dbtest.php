@@ -18,12 +18,6 @@ echo'<br>';
 for ($i=0;$i<$dataCount;$i++){
     $result_arr = mysqli_fetch_assoc($result);
 
-//    $id = $result_arr['id'];
-//    $name = $result_arr['name'];
-//    $age = $result_arr['age'];
-//
-//    echo "<tr><td>$id</td><td>$name</td><td>$age</td><td><a href='edituser.php?id=$id'>修改</a> <a href='deleteuser.php?id=$id'>删除</a></td></tr>";
-
     print_r($result_arr);
     echo '<br>';
 }
