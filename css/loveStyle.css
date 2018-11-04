@@ -1,0 +1,56 @@
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+    color: #333;
+}
+
+body {
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 70px;
+    height: 50px;
+    margin: 0 10%;
+}
+
+.button-box {
+    margin: 0 auto;
+    text-align: center
+}
+
+.main {
+    font-size: 14px;
+    margin: 0 auto;
+    margin-top: 20vh;
+    width: 80%;
+    height: 200px;
+    max-width: 500px;
+}
+
+.main h1 {
+    font-size: 18px;
+}
+
+.left {
+    float: left;
+}
+
+.pic {
+    width: 40%;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0.5rem;
+    width: 100%;
+    margin-left: 50%;
+    left: -50%;
+    text-align: center;
+}
