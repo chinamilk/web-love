@@ -17,7 +17,6 @@
         <header>
             <!--头像，大小122x122-->
             <span class="avatar"><img src="assets/img/XG003.png" alt="" /></span>
-
             <form action="db.php" method="post">
                 <div class="main">
                     <p>提示：在文本框中输入写让对方看到的文字，点击“确定”就可以生成你专属的网站哦。</p>
@@ -38,7 +37,7 @@
                         </br>
                         <input type="text" value="衣服我洗" class="no"name="no3">
                         </br>
-                        <input type="text" value="家务我全包" class="no"name="no4">
+                        <input type="text" value="房子写你名、我妈会游泳、家务我全包" class="no"name="no4">
                         </br>
                     </div>
 
@@ -53,7 +52,7 @@
     <!-- Footer -->
     <footer id="footer">
         <ul class="copyright">
-            <li>&copy; 2018-2018<a href="https:blog.xgblack.top/">臾离博客</a> </li>
+            <li>&copy; 2018-2018<a href="https:// blog.xgblack.top/">臾离博客</a> </li>
             <li><a href="http://www.miitbeian.gov.cn">苏ICP备18045687号-1 </a> </li>
         </ul>
 
