@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: xg
- * Date: 2018/11/4
- * Time: 14:28
- */
 require_once 'config.php';
 
 function connectDb(){
@@ -24,3 +18,4 @@ function md5_str(){
     $uniqid = md5(uniqid(microtime(true),true));
     return $uniqid;
 }
+?>
