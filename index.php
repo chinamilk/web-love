@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>我喜欢你哦</title>
+    <title>表白页面演示</title>
     <link rel="stylesheet" href="assets/css/loveStyle.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -17,7 +17,7 @@
         var a_idx = 0;
         jQuery(document).ready(function($) {
             $("body").click(function(e) {
-                var a = new Array("😃","😚","😍","😘","😎","❤", "亲爱的","小仙女~","爱你哦","❤");
+                var a = new Array("😃","😚","😍","😘","😎","❤", "亲爱的","宝贝~","爱你哦","❤");
                 var $i = $("<span/>").text(a[a_idx]);
                 a_idx = (a_idx + 1) % a.length;
                 var x = e.pageX,
@@ -63,7 +63,7 @@
         <header>
             <!--头像，大小122x122-->
             <span class="avatar"><img src="assets/img/XG003.png" alt="" /></span>
-            <p>这是一个演示界面，点击下方界面，可以创建自己专属的小网页哦</p>
+            <p>这是一个演示界面，点击下方按钮，可以创建自己专属的小网页哦</p>
             <input type="button" value="创建专属网址" onclick="goUrl()">
             <div class="main" >
                 <div class="left">
