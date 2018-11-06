@@ -20,7 +20,7 @@ require_once 'functions.php';
         var a_idx = 0;
         jQuery(document).ready(function($) {
             $("body").click(function(e) {
-                var a = new Array("😃","😚","😍","😘","😎","❤", "亲爱的","小仙女~","爱你哦","❤");
+                var a = new Array("😃","😚","😍","😘","😎","❤", "亲爱的","宝贝~","爱你哦","❤");
                 var $i = $("<span/>").text(a[a_idx]);
                 a_idx = (a_idx + 1) % a.length;
                 var x = e.pageX,
@@ -31,7 +31,7 @@ require_once 'functions.php';
                     "left": x,
                     "position": "absolute",
                     "font-weight": "bold",
-                    "color": "#dc1fff"
+                    "color": "#8e43e7"
                 });
                 $("body").append($i);
                 $i.animate({
@@ -61,7 +61,7 @@ if(!$_GET){
 }else{
     $love=$_GET['love'];
     $conn=connectDb();
-//    echo $love;
+
     $result=mysqli_query($conn,"SELECT*FROM users WHERE random='$love'");
     $result_arr=mysqli_fetch_assoc($result);
     $p= $result_arr['p'];
@@ -105,7 +105,7 @@ if(!$_GET){
     <!-- Footer -->
     <footer id="footer">
         <ul class="copyright">
-            <li>&copy; 2018-2018<a href="https:blog.xgblack.top/">臾离博客</a> </li>
+            <li>&copy; 2018-2018<a href="https://blog.xgblack.top/">臾离博客</a> </li>
             <li><a href="http://www.miitbeian.gov.cn">苏ICP备18045687号-1 </a></li>
         </ul>
     </footer>
