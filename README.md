@@ -4,17 +4,17 @@
  
 ## 页面简介
 - demo界面，即主页。
-![mark](https://img.xgblack.top/blog/181106/jiLd0E11Ab.png?imageslim)
+![demo界面](https://img.xgblack.top/blog/181106/jiLd0E11Ab.png)
 - 后台，自定义显示的文字
-![mark](https://img.xgblack.top/blog/181106/0HHFklbe9I.png?imageslim)
+![后台](https://img.xgblack.top/blog/181106/0HHFklbe9I.png)
 - 生成网址的界面
-![mark](https://img.xgblack.top/blog/181106/I2m4a7Gkba.png?imageslim)
+![生成网址](https://img.xgblack.top/blog/181106/I2m4a7Gkba.png)
 - 最后的展示页面
-![mark](https://img.xgblack.top/blog/181106/GHc50Fh56D.png?imageslim)
+![展示页面](https://img.xgblack.top/blog/181106/GHc50Fh56D.png)
 ## 源码的使用
 1. 第一步就是需要修改服务器的配置信息，config.php中的文件
 2. 确保服务器可以连接，管理远程服务器，新建数据表，表名为users，字段如下：
-![mark](https://img.xgblack.top/blog/181106/5L2Ah1Fck8.png?imageslim)
+![字段](https://img.xgblack.top/blog/181106/5L2Ah1Fck8.png?imageslim)
 3. 之后理论上就可以直接使用了
 
 ## 其他
