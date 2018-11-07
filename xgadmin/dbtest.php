@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: xg
- * Date: 2018/11/4
- * Time: 14:37
- */
+
 require_once 'functions.php';
 
 $conn = connectDb();
