@@ -21,4 +21,4 @@
 - 这套代码的界面设计是套用的网络上的一套免费模板
 
 ## me
-- 臾离博客 https://blog.xgblack.top/
+- 臾离博客 https://blog.xgblack.cn/
